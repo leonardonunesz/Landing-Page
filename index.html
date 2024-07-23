@@ -4,53 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Serviços de instalação e manutenção de aromas">
-  <title>Aroumar Café</title>
+  <title>LeoCoffeeBar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <nav>
-      <span>Aroumar</span>
-      <ul>
+      <span class="logo">LeoCoffeeBar</span>
+      <ul class="menu">
         <li><a>Home</a></li>
         <li><a>Receitas</a></li> 
         <li><a>Novidades</a></li>
         <li><a>Melhor avaliados</a></li>
       </ul>
-      <a>GitHub</a>
+      <a class="github">GitHub</a>
     </nav>
   </header>
   
   <main>
-      <section>
-        <header>
-          <span>novidade</span>
-          <h1>Encontre a Receita Perfeita</h1>
-          <hr>
-          <h2>Explore dezenas de variações da bebida favorita entre os devs ao redor do mundo!</h2>
-        </header>
-        <div>
-          <figure><img src="assets/image 1.png" alt=""></figure>
-          <figure><img src="assets/image 2.png" alt=""></figure>
-          <figure><img src="assets/image 3.png" alt=""></figure>
-          <figure><img src="assets/image 4.png" alt=""></figure>
-          <figure><img src="assets/image 5.png" alt=""></figure>
-          <figure><img src="assets/image 6.png" alt=""></figure>
-          <figure><img src="assets/image 7.png" alt=""></figure>
-          <figure><img src="assets/image 8.png" alt=""></figure>
-          <figure><img src="assets/image 9.png" alt=""></figure>
-          <figure><img src="assets/image 10.png" alt=""></figure>
-          <figure><img src="assets/image 11.png" alt=""></figure>
-          <figure><img src="assets/image 12.png" alt=""></figure>
-        </div>
+    <div class="hero-principal">
+        <section class="hero">
+          <header class="hero-conteudo">
+            <span class="destaque marrom">novidade</span>
+            <h1>Encontre a Receita Perfeita</h1>
+            <hr>
+            <h2 class="hero-subtitulo">Explore dezenas de variações da bebida favorita entre os devs ao redor do mundo!</h2>
+          </header>
+          <div class="hero-imagens-container">
+            <figure><img src="assets/image 1.png" alt=""></figure>
+            <figure><img src="assets/image 2.png" alt=""></figure>
+            <figure><img src="assets/image 3.png" alt=""></figure>
+            <figure><img src="assets/image 4.png" alt=""></figure>
+            <figure><img src="assets/image 5.png" alt=""></figure>
+            <figure><img src="assets/image 6.png" alt=""></figure>
+            <figure><img src="assets/image 7.png" alt=""></figure>
+            <figure><img src="assets/image 8.png" alt=""></figure>
+            <figure><img src="assets/image 9.png" alt=""></figure>
+            <figure><img src="assets/image 10.png" alt=""></figure>
+            <figure><img src="assets/image 11.png" alt=""></figure>
+            <figure><img src="assets/image 12.png" alt=""></figure>
+          </div>
+        </section>
+    </div>
+
+      <section class="button-container">
+        <Button type="button"><img src="assets/chevrons-down.svg" alt=""></Button>
       </section>
 
-      <section>
-        <Button><img src="assets/chevrons-down.svg" alt=""></Button>
-      </section>
-
-      <section>
-        <header>
+      <section class="receitas">
+        <header class="receitas-header">
           <span>Receitas</span>
           <h2>Confira as últimas receitas</h2>
           <p>Dê uma olhada nas receitas mais amadas</p>
